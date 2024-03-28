@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap'); *{font-family: 'Poppins', sans-serif};</style>
+</head>
+<body class=" h-screen bg-slate-200 flex flex-row">
+  <aside class="shadow-lg w-44 bg-white h-screen flex flex-col items-center">
+    <p class="font-bold text-center my-10 text-white p-8 -mt-1 bg-blue-600">Contact Management</p>
+    <img class="h-14 w-14 rounded-full border-blue-600 border" src="https://images.unsplash.com/photo-1502323777036-f29e3972d82f?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+    <div class="fitur1 flex flex-col my-10 text-blue-600 font-semibold">
+      <a href="" class="hover:text-blue-800 w-44 p-3 text-center hover:bg-slate-200">Home</a>
+      <a href="" class="hover:text-blue-800 border-y w-44 p-3 text-center hover:bg-slate-200">Contact</a>
+      <a href="" class="hover:text-blue-800 border-b w-44 p-3 text-center hover:bg-slate-200">FAQ</a>
+      <a href="" class="hover:text-blue-800 w-44 p-3 text-center hover:bg-slate-200">About</a>
+    </div>
+    <div class="fitur2  flex flex-col mt-14 text-blue-600 font-semibold">
+      <a href="" class="hover:text-blue-800 border-b w-44 p-3 text-center hover:bg-slate-200">Profile</a>
+      <a href="login.html" class="hover:text-red-800 text-red-600 w-44 p-3 text-center hover:bg-slate-200">Logout</a>
+    </div>
+  </aside>
+  <main class="flex flex-col w-full">
+    <p class="text-3xl font-bold text-blue-600 p-4 my-6 mx-10">DASHBOARD CONTACT</p>
+    <button class="w-40 p-2 bg-blue-600 text-sm font-semibold text-white rounded-full ml-14 hover:bg-blue-800">+ Add Contact</button>
+    <table class="w-[1050px] text-sm text-center ml-16 my-10">
+      <thead id="col" class="text-sm bg-blue-600 text-white">                 
+          <tr>
+              <th scope="col" class="px-16 py-3">ID</th>
+              <th scope="col" class="px-16 py-3">Phone Number</th>
+              <th scope="col" class="px-16 py-3">Owner</th>
+              <th scope="col" class="px-16 py-3">Action</th>
+          </tr>
+      </thead>
+      <tbody>
+        <tr class="odd:bg-transparent border-b">
+          <td scope="row" class="px-6 py-4 font-medium text-gray-700">1</td>
+          <td class="px-6 py-4">087329019361</td>
+          <td class="px-6 py-4">Justin Smith</td>
+          <td class="px-6 py-4">
+            <button class="p-1.5 w-20 bg-green-600 text-white border rounded-full hover:bg-green-800">View</button>
+            <button class="p-1.5 w-20 bg-yellow-600 text-white border rounded-full hover:bg-yellow-800">Edit</button>
+            <button class="p-1.5 w-20 bg-red-600 text-white border rounded-full hover:bg-red-800">Delete</button>
+          </td>
+        </tr>
+        <tr class="bg-slate-300 border-b">
+          <td scope="row" class="px-6 py-4 font-medium text-gray-700">2</td>
+          <td class="px-6 py-4">088651266396</td>
+          <td class="px-6 py-4">Alexa Carr</td>
+          <td class="px-6 py-4">
+            <button class="p-1.5 w-20 bg-green-600 text-white border rounded-full hover:bg-green-800">View</button>
+            <button class="p-1.5 w-20 bg-yellow-600 text-white border rounded-full hover:bg-yellow-800">Edit</button>
+            <button class="p-1.5 w-20 bg-red-600 text-white border rounded-full hover:bg-red-800">Delete</button>
+          </td>
+        </tr>
+        <tr class="odd:bg-transparent border-b">
+          <td scope="row" class="px-6 py-4 font-medium text-gray-700">3</td>
+          <td class="px-6 py-4">089981282749</td>
+          <td class="px-6 py-4">Owen Mitchell</td>
+          <td class="px-6 py-4">
+            <button class="p-1.5 w-20 bg-green-600 text-white border rounded-full hover:bg-green-800">View</button>
+            <button class="p-1.5 w-20 bg-yellow-600 text-white border rounded-full hover:bg-yellow-800">Edit</button>
+            <button class="p-1.5 w-20 bg-red-600 text-white border rounded-full hover:bg-red-800">Delete</button>
+          </td>
+        </tr>
+        <tr class="bg-slate-300 border-b">
+          <td scope="row" class="px-6 py-4 font-medium text-gray-700">4</td>
+          <td class="px-6 py-4">082651721568</td>
+          <td class="px-6 py-4">Sophia Weems</td>
+          <td class="px-6 py-4">
+            <button class="p-1.5 w-20 bg-green-600 text-white border rounded-full hover:bg-green-800">View</button>
+            <button class="p-1.5 w-20 bg-yellow-600 text-white border rounded-full hover:bg-yellow-800">Edit</button>
+            <button class="p-1.5 w-20 bg-red-600 text-white border rounded-full hover:bg-red-800">Delete</button>
+          </td>
+        </tr>
+        <tr class="odd:bg-transparent border-b">
+          <td scope="row" class="px-6 py-4 font-medium text-gray-700">5</td>
+          <td class="px-6 py-4">081237872647</td>
+          <td class="px-6 py-4">Renald West</td>
+          <td class="px-6 py-4">
+            <button class="p-1.5 w-20 bg-green-600 text-white border rounded-full hover:bg-green-800">View</button>
+            <button class="p-1.5 w-20 bg-yellow-600 text-white border rounded-full hover:bg-yellow-800">Edit</button>
+            <button class="p-1.5 w-20 bg-red-600 text-white border rounded-full hover:bg-red-800">Delete</button>
+          </td>
+        </tr>
+        <tr class="bg-slate-300 border-b">
+          <td scope="row" class="px-6 py-4 font-medium text-gray-700">6</td>
+          <td class="px-6 py-4">087012881813</td>
+          <td class="px-6 py-4">Kenna Karlsson</td>
+          <td class="px-6 py-4">
+            <button class="p-1.5 w-20 bg-green-600 text-white border rounded-full hover:bg-green-800">View</button>
+            <button class="p-1.5 w-20 bg-yellow-600 text-white border rounded-full hover:bg-yellow-800">Edit</button>
+            <button class="p-1.5 w-20 bg-red-600 text-white border rounded-full hover:bg-red-800">Delete</button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </main>
+</body>
+</html>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap'); *{font-family: 'Poppins', sans-serif};</style>
+</head>
+<body class="flex flex-col justify-center items-center h-screen bg-slate-200">
+  <div class="container w-96 bg-white shadow-xl rounded-xl">
+    <p class="font-bold text-center my-6">Login Your Account</p>
+    <form class="flex flex-col mx-10 my-4 font-medium" action="">
+      <label for="email">Email</label>
+      <input class="my-2 text-sm border rounded-full p-2" id="email" type="email" placeholder="johndoe@gmail.com">
+      <label for="password">Password</label>
+      <input class="my-2 text-sm border rounded-full p-2" id="password" type="password" placeholder="********">
+    </form>
+    <a href="dashboard.html"><button class="p-2 bg-blue-500 ml-[70px] rounded-full w-60 text-white font-medium hover:bg-blue-600">Login</button></a>
+    <p class="text-sm text-center my-4">Gapunya akun? Daftar Dulu <a class="text-blue-600" href="register.html">Disini</a></p>
+  </div>
+</body>
+</html>
